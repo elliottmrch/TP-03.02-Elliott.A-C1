@@ -25,6 +25,7 @@ void simulerPiano(Note** notes, int taille)
 {
     char touche;
     int i;
+    printf("Appuyez sur une touche pour jouer une note (azertyuioplm / a e t y i p m = do re mi fa sol la si), ou sur 'q' pour quitter\n");
 
     while(1)
     {
